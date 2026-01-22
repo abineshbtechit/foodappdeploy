@@ -4,8 +4,7 @@
   "dependencies": {
     "json-server": "0.17.4"
   },
- "scripts": {
-  "start": "node ./node_modules/json-server/lib/bin.js --watch db.json --port 10000"
-}
-
+  "scripts": {
+    "start": "json-server --watch db.json --port 10000"
+  }
 }
