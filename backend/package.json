@@ -1,3 +1,7 @@
-"scripts": {
-  "start": "npx json-server --watch db.json --port 10000"
+{
+  "name": "backend",
+  "private": true,
+  "scripts": {
+    "start": "npx json-server --watch db.json --port 10000"
+  }
 }
